@@ -1,0 +1,212 @@
+html,
+body {
+    min-height: 100vh;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden;
+    background: linear-gradient(180deg, #0b1020 0%, #1a1f3a 45%, #2a2d52 75%, #3a3f6b 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+}
+
+/* Pastel-romantik yıldızlı arka plan */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0.95;
+    background-image:
+        radial-gradient(2px 2px at 25px 35px, rgba(255,255,255,0.95) 50%, transparent 55%),
+        radial-gradient(2px 2px at 90px 120px, rgba(255,245,250,0.9) 50%, transparent 55%),
+        radial-gradient(2.5px 2.5px at 180px 60px, rgba(255,255,255,1) 50%, transparent 55%),
+        radial-gradient(2px 2px at 260px 140px, rgba(230,240,255,0.9) 50%, transparent 55%),
+        radial-gradient(2px 2px at 60px 190px, rgba(255,255,255,0.95) 50%, transparent 55%),
+        radial-gradient(2.5px 2.5px at 300px 220px, rgba(255,250,255,1) 50%, transparent 55%),
+        radial-gradient(1.5px 1.5px at 150px 200px, rgba(240,245,255,0.9) 50%, transparent 55%),
+        radial-gradient(1.5px 1.5px at 340px 100px, rgba(255,240,250,0.85) 50%, transparent 55%);
+    background-size: 380px 260px;
+    background-repeat: repeat;
+}
+
+.navbar,
+main.container,
+footer {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar {
+    background-color: rgba(10, 14, 30, 0.95) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+main.container {
+    flex: 1;
+}
+
+.card {
+    border: none;
+    border-radius: 18px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.97);
+}
+
+.card.shadow-sm {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.14) !important;
+}
+
+.btn {
+    border-radius: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.btn-dark {
+    background-color: #4a74c9;
+    border-color: #4a74c9;
+}
+
+.btn-dark:hover {
+    background-color: #355fb6;
+    border-color: #355fb6;
+}
+
+.btn-secondary {
+    background-color: #7b819c;
+    border-color: #7b819c;
+}
+
+.btn-secondary:hover {
+    background-color: #666d88;
+    border-color: #666d88;
+}
+
+.btn-warning {
+    color: #1f2937;
+    background-color: #facc15;
+    border-color: #facc15;
+}
+
+.btn-danger {
+    background-color: #dc2626;
+    border-color: #dc2626;
+}
+
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px 12px;
+    border-color: #cbd5e1;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #7fb3ff;
+    box-shadow: 0 0 0 0.2rem rgba(127, 179, 255, 0.18);
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.table thead th {
+    background-color: #4a74c9;
+    color: #ffffff;
+    border: none;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.page-title {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #4a74c9;
+}
+
+/* Tatlı mavi panel */
+.hero-card {
+    background: linear-gradient(135deg, #5b8def 0%, #79a8ff 55%, #9fc5ff 100%);
+    color: #ffffff;
+    border-radius: 22px;
+    padding: 36px;
+    margin-bottom: 40px;
+    box-shadow: 0 12px 32px rgba(91, 141, 239, 0.28);
+}
+
+.hero-card h1 {
+    font-weight: 800;
+}
+
+.hero-card p {
+    color: #eef5ff;
+}
+
+.hero-label {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.22);
+    color: #ffffff;
+    padding: 6px 12px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.hero-card .btn-light {
+    border-radius: 999px;
+    font-weight: 600;
+    padding: 10px 18px;
+    color: #4a74c9;
+}
+
+.badge-stage {
+    display: inline-block;
+    background-color: #dbeafe;
+    color: #3b82f6;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.badge-priority {
+    display: inline-block;
+    background-color: #e0f2fe;
+    color: #0284c7;
+    padding: 7px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.alert-success {
+    background-color: #dcfce7;
+    border-color: #bbf7d0;
+    color: #166534;
+}
+
+.alert-danger {
+    background-color: #fee2e2;
+    border-color: #fecaca;
+    color: #991b1b;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgba(10, 14, 30, 0.97) !important;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.22);
+}
