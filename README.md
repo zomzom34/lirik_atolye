@@ -20,6 +20,16 @@ Bu proje, şarkı fikirlerini ve taslaklarını düzenli şekilde saklamak istey
 
 ---
 
+## 🎯 Projenin Kapsamı
+
+Bağımsız sanatçılar ve şarkı yazarları için üretim süreci çoğu zaman dağınık notlar, yarım kalan sözler, telefon notlarına yazılmış fikirler ve unutulan melodilerden oluşur. LirikAtölye, bu yaratıcı süreci daha düzenli hale getirmek amacıyla geliştirilmiş bir şarkı taslağı takip sistemidir.
+
+Uygulama sayesinde kullanıcılar yalnızca şarkı adı kaydetmekle kalmaz; tür, tema, ilham kaynağı, söz taslağı, beste notları, üretim aşaması, öncelik durumu ve planlanan yayın tarihi gibi bilgileri de tek bir panel üzerinden yönetebilir.
+
+Bu yönüyle LirikAtölye, bağımsız müzisyenlerin ve söz yazarlarının fikir aşamasındaki çalışmalarını kaybetmeden takip edebileceği kişisel bir üretim alanı sunar.
+
+---
+
 ## 🎯 Projenin Amacı
 
 Bu uygulamanın amacı:
@@ -166,7 +176,7 @@ http://localhost/phpmyadmin
 
 ### 4. Veritabanını oluşturun
 
-`database.sql` dosyasındaki SQL kodlarını phpMyAdmin üzerinde çalıştırın.
+phpMyAdmin üzerinden önce `lirik_atolye` adında bir veritabanı oluşturun. Daha sonra bu veritabanını seçerek `database.sql` dosyasını içe aktarın.
 
 ### 5. Veritabanı bağlantısını düzenleyin
 
@@ -200,6 +210,18 @@ http://localhost/lirik_atolye
 
 ---
 
+## 🚀 Geliştirme Alanları
+
+Proje temel kullanıcı işlemleri ve şarkı taslağı yönetimi üzerine kurulmuştur. İlerleyen süreçte uygulama daha kapsamlı hale getirilerek aşağıdaki özellikler eklenebilir:
+
+- Şarkı taslaklarını üretim aşamasına veya öncelik durumuna göre filtreleme
+- Kullanıcı panelinde toplam taslak sayısı ve tamamlanan çalışma sayısı gibi özet bilgilerin gösterilmesi
+- Her şarkı taslağı için ayrı bir detay görüntüleme sayfası oluşturulması
+- Kullanıcıların taslaklarına kapak görseli veya ses dosyası ekleyebilmesi
+- Arayüzün mobil kullanım için daha gelişmiş hale getirilmesi
+
+---
+
 ## 🔒 Güvenlik Özellikleri
 
 - Kullanıcı şifreleri veritabanına düz metin olarak kaydedilmez.
@@ -216,9 +238,7 @@ http://localhost/lirik_atolye
 
 Proje tanıtım videosu bağlantısı:
 
-```text
-Buraya YouTube video bağlantısı eklenecek.
-```
+https://youtu.be/0d7hdz8sV08
 
 ---
 
