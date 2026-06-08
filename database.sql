@@ -1,9 +1,3 @@
-CREATE DATABASE IF NOT EXISTS lirik_atolye
-CHARACTER SET utf8mb4
-COLLATE utf8mb4_turkish_ci;
-
-USE lirik_atolye;
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
