@@ -2,9 +2,9 @@
 
 <div align="center">
 
-### Şarkı taslaklarını kaydet, düzenle, ara ve takip et.
+## Şarkı Taslağı Takip Sistemi
 
-**Şarkı taslağı takip sistemi**
+### Şarkı taslaklarını kaydet, düzenle, ara ve takip et.
 
 </div>
 
