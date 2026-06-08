@@ -245,3 +245,5 @@ https://youtu.be/0d7hdz8sV08
 ## 👩‍💻 Geliştirici
 
 **Nazife Sude CAN**
+
+Bu proje bireysel olarak Web Tabanlı Programlama dersi kapsamında geliştirilmiştir.
